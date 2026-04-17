@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria ;
+}
+body{
+    background-image: url("./algovis.jpg");
+}
+header{
+    background-image:url(./backimage2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    align-items: center;
+    font-family: Cambria;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: whitesmoke;
+    font-size: 75px;
+}
+.button {
+    position: absolute;
+    top: 75%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    font-size: 20px;
+    border: 3px solid whitesmoke;
+    padding: 20px 50px;
+    color:black;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background-color: whitesmoke;
+}
+.btn:hover{
+    transition-duration: 10s ease-in;
+    background-color: black;
+    color:whitesmoke;
+} 
+.para{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    align-content: justify;
+    padding: 50px 50px;   
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-50%);;
+    color: whitesmoke;
+    
+}
